@@ -1,28 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) { }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  if (condition) {
-
-  }
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license) {
-
-  } return '';
-}
-
-// TODO: Create a function to generate markdown for README
-// switch statement for badge
-function generateMarkdown(data) {
-  return `
-# ${data.title}
+# bla
 
 ## Description
 var license = data.license
@@ -67,7 +44,7 @@ var license = data.license
       return [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/);
       break;
   }
-${data.description}
+bla
 
 ## Table of Contents
 * [Installation](#installation)
@@ -78,25 +55,21 @@ ${data.description}
 * [Questions](#questions)
 
 ## Installation
-${data.installation}
+bla
 
 ## Usage
-${data.usage}
+bla
 
 ## License
-${data.license}
+Mozilla Public License 2.0
 
 ## Contributing
-${data.contributing}
+bla
 
 ## Tests
-${data.tests}
+bla
 
 ## Questions
-* Questions? Visit my GitHub: [${data.questions}](https://github.com/${data.questions}) 
-* With additional questions, feel free to email me at: ${data.email}
+* Questions? Visit my GitHub: [bla](https://github.com/bla) 
+* With additional questions, feel free to email me at: bla
 
-`;
-}
-
-module.exports = generateMarkdown;
