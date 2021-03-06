@@ -19,6 +19,7 @@ The fs node module is used to generate the README, and switch statements are uti
 
 ## Credits
 Here are a few resources that helped me get this project knocked out!
+* [JavaScript Switch Statement w3schools.com](https://www.w3schools.com/js/js_switch.asp)
 * [choosealicense.com](https://choosealicense.com/)
 * [README.md](https://github.com/microsoft/vscode/blob/main/README.md)
 * [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
