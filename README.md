@@ -26,6 +26,8 @@ Retrieving data from API's, and working with more complex local storage were the
 ## Credits
 Here are a few resources that helped me get this project knocked out!
 * [choosealicense.com](https://choosealicense.com/)
+* [README.md](https://github.com/microsoft/vscode/blob/main/README.md)
+* [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 ## License
 ©2021 Richard Seward. All Rights Reserved.
