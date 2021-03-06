@@ -65,7 +65,6 @@ function init() {
     .then(answers => {
       // Use user feedback for... whatever!!
       const markdown = generateMarkdown(answers);
-      console.log(markdown);
       writeFile('test.md', markdown);
     })
     .catch(error => {
