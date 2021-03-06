@@ -1,18 +1,12 @@
 # README_Generator
-Command-line application that dynamically generates a professional README.md file from a user's input.
+
 
 ## Description
-OpenWeather is a Third-party API that provides weather data. This webpage retrieves a 5 day forecast for a given city. Once the user searches a city, it is added to the local storage, and retrieved upon reload. Each city in the search list has a click event built in, that populates the api city url with the text content of that list item, allowing the user to navigate through cities in their history.
+Command-line application that dynamically generates a professional README.md file from a user's input. The Inquirer node package module is used to generate prompts that the user responds to in the command line. The prompts follow gitHubs README.md guide outlining all elements of a quality README.
 
-The first challenge came from the city variable in the api url. It needs to respond to both search history list item clicks, as well as the search button click itself. I therefore added a conditional setting the text content of the searchterm to the input value in the event that local storage is empty, which would be the case if the user visited the site for the first time.
+**[Check out the Screencastify video here!](#)**
 
-Additionally, retrieving the UV Index required a seperate API call as my first API did not include UV Index values. 
-
-This site features dynamically updated HTML and CSS.
-
-**[Check it out Here!](https://raseward14.github.io/Weather-Dashboard/)**
-
-Retrieving data from API's, and working with more complex local storage were the biggest takeaways from this project. The end product is actually pretty cool, so feel free to check it out!
+The fs node module is used to generate the README, and switch statements are utilized to generate the license badges, links, and section explanations once the user determines the license that works best for their project.
 
 ## Table of Contents
 * [Usage](#usage)
@@ -21,7 +15,7 @@ Retrieving data from API's, and working with more complex local storage were the
 
 ## Usage
 * **The Finished Product**  
-![Weather Dashboard](assets/images/weatherdashboard-sm.png)
+![README Generator](assets/images/readme.png)
 
 ## Credits
 Here are a few resources that helped me get this project knocked out!
@@ -30,4 +24,25 @@ Here are a few resources that helped me get this project knocked out!
 * [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 ## License
-©2021 Richard Seward. All Rights Reserved.
+* Link for more information: (https://opensource.org/licenses/MIT)
+* MIT License
+
+      Copyright (c) [year] [fullname]
+      
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
+      
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
+      
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.
