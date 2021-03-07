@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is a sample of a ReadME created by using the command-line to generate one. This both saves the developer time, and generates consistency amongst all readMEs. The Inquirer package is used to generate prompts that the user responds to in the command line. The prompts follow gitHubs README.md guide outlining all elements of a quality readME.
+This is a sample of a ReadME created by using the command line to generate one. This both saves the developer time, and generates consistency amongst all ReadMEs. Nodes Inquirer package module is utilized to generate prompts that the user responds to in the command line. The prompts follow GitHubs README.md guidelines outlining all elements of a quality ReadME.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -17,7 +17,7 @@ This is a sample of a ReadME created by using the command-line to generate one. 
 To use the application, start by forking the git repository to your local machine, and opening the README_Generator directory with the command line. From there, you can run node index.js to begin building your README.
 
 ## Usage
-In this section, you can outline the usage instructions and examples for your project. This command line application is dynamic, and applicable for any README, regardless of the topic its associated with.
+In this section, you can outline the usage instructions and examples for your project. This command line application is dynamic and applicable for any README, regardless of the topic its associated with.
 
 ## License
 * Link for more information: (https://opensource.org/licenses/MIT)
@@ -44,10 +44,10 @@ In this section, you can outline the usage instructions and examples for your pr
       SOFTWARE.
 
 ## Contributing
-A common set of guidelines for contribution guidelines can be found at Contributor Covenant. This is an industry standard.
+A common set of guidelines for contribution can be found at Contributor Covenant. This is an industry standard.
 
 ## Tests
-Tests can ensure that the application is working correctly.
+Tests can ensure that the application is working properly.
 
 ## Questions
 * Questions? Visit my GitHub: [raseward14](https://github.com/raseward14) 

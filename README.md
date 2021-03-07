@@ -1,10 +1,10 @@
 # README_Generator
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 Command-line application that dynamically generates a professional README.md file from a user's input. The Inquirer node package module is used to generate prompts that the user responds to in the command line. The prompts follow gitHubs README.md guide outlining all elements of a quality README.
 
-**[Check out the Screencastify video here!](#)**
+**[Check out the video here!](https://drive.google.com/file/d/1i6kpVcWCndl1QFa8j1u-M8yVi3oyn36U/view)**
 
 The fs node module is used to generate the README, and switch statements are utilized to generate the license badges, links, and section explanations once the user determines the license that works best for their project.
 
